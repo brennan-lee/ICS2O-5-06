@@ -30,5 +30,4 @@ while (i < 10) {
   text += "<br>The number is " + i
   i++
 }
-  document.getElementById("answer").innerHTML = text
-
+document.getElementById("answer").innerHTML = text
