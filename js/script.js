@@ -16,10 +16,10 @@ if (navigator.serviceWorker) {
 }
 
 const number = ["3", "3", "3"]
-let i = 0;
+let i = 0
 let text = ""
 
-for (;number[i];) {
+for (; number[i]; ) {
   text += number[i]
   i++
 }
