@@ -15,8 +15,12 @@ if (navigator.serviceWorker) {
   })
 }
 
-while (i < 10) {
-  text += "The number is " + i
+const number = ["3", "3", "3"]
+let i = 0;
+let text = ""
+
+for (;number[i];) {
+  text += number[i]
   i++
 }
 
