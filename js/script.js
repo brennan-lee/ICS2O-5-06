@@ -15,13 +15,20 @@ if (navigator.serviceWorker) {
   })
 }
 
-const number = ["3", "3", "3"]
-let i = 0
-let text = ""
+//const number = ["3", "3", "3"]
+//let i = 0
+//let text = ""
 
-for (; number[i]; ) {
-  text += number[i]
+//for (; number[i]; ) {
+//  text += number[i]
+//  i++
+//}
+
+let text = ""
+let i = 3
+while (i < 10) {
+  text += "<br>The number is " + i
   i++
 }
+  document.getElementById("answer").innerHTML = text
 
-document.getElementById("answer").innerHTML = text
